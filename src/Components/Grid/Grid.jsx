@@ -11,10 +11,7 @@ function Grid({ numberOfCards }) {
   const [winner, setWinner] = useState(null);
 
   function play(index) {
-    console.log(
-      "Mother Fucker i just played my move, sugewa Jotaro Ki sama da",
-      index
-    );
+    console.log("I Played my move", index);
 
     if (turn == true) {
       board[index] = "O";
